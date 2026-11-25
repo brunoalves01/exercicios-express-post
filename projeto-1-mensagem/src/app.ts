@@ -71,5 +71,7 @@ app.use((error: unknown, req: Request, res: Response, next: NextFunction) => {
 
 // Inicializando o servidor
 app.listen(3001, () => {
-    console.log("Servidor de mensagens rodando na porta 3001!");
+    console.log("Servidor de mensagens rodando!");
+    console.log("http://localhost:3001");
+    console.log("Rota POST: http://localhost:3001/mensagem");
 });

@@ -76,5 +76,7 @@ app.use((error: unknown, req: Request, res: Response, next: NextFunction) => {
 
 // Inicializando o servidor
 app.listen(3002, () => {
-    console.log("Servidor de soma rodando na porta 3002!");
+    console.log("Servidor de soma rodando!");
+    console.log("http://localhost:3002");
+    console.log("Rota POST: http://localhost:3002/soma");
 });

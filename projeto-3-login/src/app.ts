@@ -92,5 +92,7 @@ app.use((error: unknown, req: Request, res: Response, next: NextFunction) => {
 
 // Inicializando o servidor
 app.listen(3003, () => {
-    console.log("Servidor de login rodando na porta 3003!");
+    console.log("Servidor de login rodando!");
+    console.log("http://localhost:3003");
+    console.log("Rota POST: http://localhost:3003/login");
 });
