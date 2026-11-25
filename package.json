@@ -1,0 +1,37 @@
+
+{
+  "name": "exercicios-express-post",
+  "version": "1.0.0",
+  "description": "Exercicios de Express.js utilizando TypeScript",
+  "main": "dist/projeto-1-mensagem/src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev:mensagem": "tsx watch projeto-1-mensagem/src/app.ts",
+    "dev:soma": "tsx watch projeto-2-soma/src/app.ts",
+    "dev:login": "tsx watch projeto-3-login/src/app.ts",
+    "build": "tsc",
+    "start:mensagem": "node dist/projeto-1-mensagem/src/app.js",
+    "start:soma": "node dist/projeto-2-soma/src/app.js",
+    "start:login": "node dist/projeto-3-login/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoalves01/exercicios-express-post.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoalves01/exercicios-express-post/issues"
+  },
+  "homepage": "https://github.com/brunoalves01/exercicios-express-post#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
